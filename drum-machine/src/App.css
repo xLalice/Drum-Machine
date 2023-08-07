@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-machine {
+  border: 10px solid #00ADB5;
+  color: white;
+  padding: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 700px;
+}
+
+#pads {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.drum-pad {
+  flex: 0 0 30%;
+  background-color: #393E46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
